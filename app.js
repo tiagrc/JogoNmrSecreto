@@ -21,7 +21,7 @@ function verificarChute() {
 
   if (chute == nmrSecreto) {
     exibirTextoNaTela("h1", "Acertou!");
-    let tentativaSingular = tentativas > 1 ? "tentativas" : "tentativa";
+    let tentativaSingular = tentativas > 1 ? "tentativas!" : "tentativa!";
     let msgTentativas = `Você descobriu o número secreto com ${tentativas} ${tentativaSingular}`;
     exibirTextoNaTela("p", msgTentativas);
     document.getElementById("reiniciar").removeAttribute("disabled");
