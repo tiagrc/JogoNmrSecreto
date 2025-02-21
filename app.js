@@ -1,5 +1,5 @@
 let listaNmrSorteados = [];
-let limparArr = 10;
+let limparArr = 100;
 let nmrSecreto = gerarNmrAleatorio();
 let tentativas = 1;
 
